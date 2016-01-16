@@ -6,8 +6,9 @@
 
 ## Install
 <p>Note: Bluebird is required, the Promise return from the method is instance of Bluebird.</p>
-<b>npm install --save bluebird</b>
-<b>npm install --save hapi-async-methods</b>
+<p><b>npm install --save bluebird</b></p>
+
+<p><b>npm install --save hapi-async-methods</b></p>
 
 <p>The traditional way of method config used by Hapi</p>
 <p>The route config</p>
