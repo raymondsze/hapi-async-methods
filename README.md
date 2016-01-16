@@ -33,7 +33,7 @@ or
 ```javascript
 {
   name: 'hello',
-  method: Promise.coroutine(function (name) {
+  method: Promise.coroutine(function *(name) {
     return 'Hello, ' + name;
   })
 }
