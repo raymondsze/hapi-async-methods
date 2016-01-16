@@ -104,7 +104,7 @@ server.method({
 <p>Then you can access the async method by server.methodsAsync</p>
 ```javascript
 function(request, reply) {
-  request.server.methodsAsync.hello().then((result) => {
+  request.server.methodsAsync.hello('Raymond').then((result) => {
     .....
   });
 }
