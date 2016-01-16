@@ -11,7 +11,7 @@
 <p><b>npm install --save hapi-async-methods</b></p>
 
 <p>The traditional way of method config used by Hapi</p>
-<p>The route config</p>
+<p>The method config</p>
 ```javascript
 {
   name: 'hello',
