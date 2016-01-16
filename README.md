@@ -112,11 +112,13 @@ function(request, reply) {
 
 ## Drop Cache
 <p>You can drop cache with cache.dropAsync instead of cache.drop</p>
+```javascript
 function(request, reply) {
   request.server.methodsAsync.hello.cache.dropAsync('Raymond').then(() => {
     ......
   });
 }
+```
 
 ## Example
 <p>Please visit the test case for example reference. </p>
