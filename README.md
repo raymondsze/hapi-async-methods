@@ -65,7 +65,10 @@ function(request, reply) {
 <p>You may interested in <a href="https://github.com/raymondsze/hapi-async-routes">hapi-async-route</a> to make handler also act as async function.</p>
 <p><b>methods</b> (Optional): This is the array of dir path you want to scan the method config with method as async function, it is much convenient if you don't want to server.method or write thunk function manually.</p>
 <p>The thunk method can be accessed by server.methods[methodName]. The async method can be accessed by server.methodsAsync[methodName].</p>
-<p>The file inside the directory should be like that</p>
+<p>The file inside the directory should <b>module.exports</b> or <b>export default</b> the following</p>
+<p>1. A method config instance </p>
+<p>2. An array of method config instance </p>
+<p>Example:</p>
 ```javascript
 module.exports = [
   {
