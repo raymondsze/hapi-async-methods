@@ -1,4 +1,7 @@
 ## hapi-async-methods [![Build Status](https://travis-ci.org/raymondsze/hapi-async-methods.svg)](https://travis-ci.org/raymondsze/hapi-async-methods.svg?branch=master)
+## Not Maintained
+:exclamation: I haven't use Hapi framework for a long time. This repository is no longer maintained.
+
 ## Introduction
 <p>This plugin is used to solve 2 problems.</p>
 <p>1. Use async function as method instead of thunk. Therefore, you can use await/ yield inside and outside your method call.</p>
